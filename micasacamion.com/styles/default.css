@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Caveat:wght@400;700&display=swap);
+
+html {
+	background-color: #cc3300;
+	width: 60%;
+	margin: 0px 300px 0px 325px;
+}
+
+body {
+	background-image: linear-gradient(#f5bb00, #ffc400, #e63900, #cc3300);
+	border: 3px solid red;
+	border-bottom: none;
+	border-top: none;
+	box-shadow: 5px 10px 50px red;
+	text-align: center;
+	margin: auto;
+}
+
+header {
+	background-image: linear-gradient(to right, #ffc400, #f5bb00);
+	color: white;
+	margin: 0px 0px 35px 0px;
+}
+
+h1 {
+	font-family: 'Caveat', cursive;
+	font-size: 70pt;
+	margin: 0px 0px 20px 0px;
+}
+
+main nav {
+	font-family: 'Caveat', cursive;
+	font-size: 26pt;
+	margin: 10px 10px 10px 10px;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: #8ea604;
+}
+
+main p {
+	float: left;
+	text-align: left;
+	border: 5px dashed #8ea604;
+	border-radius: 5px;
+	font-size: 18pt;
+	font-family: 'Caveat Brush', cursive;
+	margin: 30px 60px 25px 40px;
+	padding: 10px 10px 10px 10px;
+}
+
+figure {
+	font-size: 16pt;
+	font-family: 'Caveat Brush', cursive;
+	margin: 0px 10px 10px 500px;
+}
+
+img {
+	border: 6px dashed #8ea604;
+	border-radius: 60px;
+}
+
+table, td {
+	font-size: 18pt;
+	font-family: 'Caveat Brush', cursive;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 25px 10px 25px 10px;
+}
+
+th {
+	font-size: 30pt;
+	font-family: 'Caveat Brush', cursive;
+	padding: 10px 10px 10px 10px;
+	border: 4px dashed #8ea604;
+	border-collapse: collapse;
+}
+
+footer {
+	background-color: #8ea604;
+	font-family: 'Caveat', cursive;
+	font-size: 16pt;
+	padding: 10px 10px 10px 10px;
+}

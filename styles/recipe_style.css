@@ -1,0 +1,24 @@
+table {
+	width: 75%;
+	margin: auto;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+th, td {
+	background-color: #433d8f;
+	border: 5px solid;
+	border-spacing: 75%;
+	padding: 10px 10px 20px 20px;
+}
+body {
+	text-align: center;
+	color: #f0efeb;
+	font-family: Verdana;
+	background-color: #9c9ab8;
+}
+footer{
+	padding-top: 20px;
+}
+362418 brown
+9c9ab8 babyblue
+433d8f blue
