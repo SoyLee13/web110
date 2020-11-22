@@ -3,7 +3,8 @@
 html {
 	background-color: #cc3300;
 	width: 60%;
-	margin: 0px 300px 0px 325px;
+	margin-right:300px;
+	margin-left: 325px;
 }
 
 body {
@@ -28,6 +29,14 @@ h1 {
 	margin: 0px 0px 20px 0px;
 }
 
+h2 {
+	font-family: 'Caveat', cursive;
+	font-size: 36pt;
+	text-align: center;
+	color: white;
+	padding: 5px;
+}
+
 main nav {
 	font-family: 'Caveat', cursive;
 	font-size: 26pt;
@@ -45,22 +54,27 @@ a:hover {
 
 main p {
 	float: left;
+	display: block;
+	clear: left;
+	width: 43%;
 	text-align: left;
+	margin-top: 10px;
 	border: 5px dashed #8ea604;
 	border-radius: 5px;
 	font-size: 18pt;
 	font-family: 'Caveat Brush', cursive;
-	margin: 30px 60px 25px 40px;
+	margin: 30px 20px 25px 40px;
 	padding: 10px 10px 10px 10px;
 }
 
 figure {
 	font-size: 16pt;
 	font-family: 'Caveat Brush', cursive;
-	margin: 0px 10px 10px 500px;
+	margin-left: 500px;
+	margin-top: 0px;
 }
 
-img {
+table img {
 	border: 6px dashed #8ea604;
 	border-radius: 60px;
 }
@@ -81,9 +95,36 @@ th {
 	border-collapse: collapse;
 }
 
+form {
+	font-family: 'Caveat Brush', cursive;
+	font-size: 30px;
+	margin: 10px 10px 50px 250px;
+	padding-bottom: 5px;
+}
+
+label {
+	float: left;
+	width: 25%;
+	clear: left;
+	text-align: right;
+	margin-top: 10px;
+	margin-right: 50px;
+}
+
+input, textarea {
+	margin: 10px 10px 10px 10px;
+	padding-bottom: 10px;
+	display: block;
+}
+
+#mySubmit {
+	margin-left: 234px;
+}
+
 footer {
 	background-color: #8ea604;
 	font-family: 'Caveat', cursive;
 	font-size: 16pt;
 	padding: 10px 10px 10px 10px;
+	opacity: 0.8;
 }

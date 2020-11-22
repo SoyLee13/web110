@@ -1,34 +1,44 @@
 body {
     font-family: monospace;
     background-color: burlywood;
+	text-align: center;
 }
-h1 {
-    text-align: center;
-    background-color: lightblue;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    margin: auto;
-    border-style: solid;
+
+h1{
+	padding: 10px;
+	background-color: lavenderblush;
+	margin: 10px;
+	padding: 25px;
 }
+
 h2 {
-    background-color: lavenderblush;
-    margin-bottom: 0px;
-    margin-left: 50px;
-    margin-right: 100px;
-}
-p {
     background-color: lightblue;
-    margin-top: 0px;
-    margin-left: 50px;
-    margin-right: 100px;
-    font-size: 16px;
-    border-style: groove;
+    border: 3px groove;
+	padding: 10px;
 }
-footer {
-    text-align: center;
-}
-.footerp {
+h3 {
     background-color: lavenderblush;
-    margin: 30px 100px 10px 100px;
-    text-align: center;
+	margin-bottom: 0px;
+	padding: 10px;
+	text-align: left;
+}
+
+main {
+	margin: 0px 100px 0px 100px;
+}
+
+main p {
+    background-color: lightblue;
+    font-size: 16px;
+	border-style: groove;
+	margin-top: 0px;
+	padding: 20px;
+	text-align: left;
+}
+
+footer {
+	border-style: groove;
+	background-color: lavenderblush;
+	padding: 10px;
+	margin: 10px;
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8"/>
 	<link href="styles/default.css" rel="stylesheet" type="text/css">
@@ -7,8 +8,9 @@
 </head>
 
 <body>
+
 	<header>
-		<h1>Mi Casa</h1>	
+		<h1>Mi Casa</h1>
 	</header>
 
 	<main>
@@ -20,34 +22,31 @@
 			<a href="location.html">Location</a>
 			<a href="contact.html">Contact</a>
 		</nav>
+		
+		<div id="googleMap" style="width:100%;height:400px;"></div>
 
+		<script >
+			function myMap() {
+			var mapProp= {
+			center:new google.maps.LatLng(35.0825615,-80.6584602),
+			zoom:20,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+			};
+			var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);} 
+			var marker = new google.maps.Marker({position: myLatLng});
 
-		<p>Today's Special: <br />
-		Carnita Torta Cubana <br />
-		&nbsp;&nbsp;OR <br />
-		Carnita Huaraches
-		<br />
-		<br />
-		Follow us on Facebook for more updates!
-		<a href="https://www.facebook.com/micasamyy">
-		<img src="images/fbicon.png" width="50" height="50" align="right"></a>
-		</p>
-	
-	
-		<figure>
-			<img src="images/tortacubana.jpg" width="400" height="300" alt="Picture of a Torta Cubana">
-			<figcaption>"A delicious Torta Cubana is waiting for you!"</figcaption>
-		</figure>
+			marker.setMap(map);
+		</script>	
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvAiN7N6YRfYtc9I0lsMqXQYRljIi8WvM&callback=myMap"></script>
 		
 	</main>
-
+	
+	
 	<footer>
-
 		<p>704.999.9999 &#9633; micasafoodtruck@gmail.com &#9633; 
 		<a href="https://www.facebook.com/micasamyy">Facebook</a> &#9633; {Page Created by GleeCode}</p>
-		
 	</footer>
-
+	
 </body>
 
 </html>

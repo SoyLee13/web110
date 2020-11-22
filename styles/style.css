@@ -44,7 +44,8 @@ header, footer {
 	border: dashed 2px #c39bd3;
 }
 footer {
-	margin-top: 100px;
+	padding: 10px;
+	padding-top: 20px;
 }
 
 h2, h3 {
